@@ -5,15 +5,13 @@ This folder contains examples and tests for different features.
 How to run examples:
 
 ```bash
-npm i -g editly
-
 git clone https://github.com/mifi/editly.git
-
-cd editly/examples
-
+cd editly
+npm install
+npm run build
+cd examples
 git clone https://github.com/mifi/editly-assets.git assets
-
-editly --fast commonFeatures.json5
+./run commonFeatures.json5
 ```
 
 ## Image slideshow with Ken Burns zoom
@@ -65,7 +63,6 @@ editly --fast commonFeatures.json5
 - [audio1.json5](https://github.com/mifi/editly/blob/master/examples/audio1.json5)
 - [audio2.json5](https://github.com/mifi/editly/blob/master/examples/audio2.json5)
 
-
 ## Custom HTML5 canvas Javascript
 
 ![](https://github.com/mifi/gifs/raw/master/customCanvas.gif)
@@ -86,6 +83,11 @@ node customCanvas.js
 node customFabric.js
 ```
 
+## `fabricImagePostProcessing`
+
+https://user-images.githubusercontent.com/907138/214545896-ab420beb-bd50-4974-9bad-9657e4f0c849.mp4
+
+[fabricImagePostProcessing.js](fabricImagePostProcessing.js)
 
 ## LosslessCut tutorial
 
